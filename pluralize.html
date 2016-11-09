@@ -3,11 +3,17 @@
 <body>
 <script>
 
-function pluralize(x){
+function pluralize(word){
 	
-	console.log(x+"s");
-
+	console.log(word+"s");
+if (word == "Moss"){
+	console.log("Mosses");
 }
+else{
+	console.log(word+"s");
+}
+}
+
 
  var word = prompt("give me a word to pluralize");
 
